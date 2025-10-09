@@ -136,4 +136,4 @@ MULTITHREADED_HTTP_SERVER
 Thank you for checking out my project!  
 If you need to test, run, or review any part, just follow the easy instructions above.
 
-*README by T. Abdul Kalam Azad (10053), Batch-B, 2nd Year*
+*README by T. Abdul Kalam Azad*
