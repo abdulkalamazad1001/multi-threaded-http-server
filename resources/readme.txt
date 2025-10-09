@@ -109,6 +109,3 @@ Error logs are printed to console (not saved to file).
 My Details:-
 
 Name: T. Abdul Kalam Azad
-Roll No: 10053
-Batch: B — 2nd Year
-
