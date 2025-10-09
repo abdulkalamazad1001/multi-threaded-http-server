@@ -2,13 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About - Multi-threaded HTTP Server</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 2rem;
+        background: #fafafa;
+        color: #222;
+      }
+      nav {
+        margin-bottom: 1rem;
+      }
+      nav a {
+        margin-right: 1rem;
+        color: #1a73e8;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      h1 {
+        margin-bottom: 0.5rem;
+      }
+      p {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 2rem;
+      }
+    </style>
   </head>
   <body>
-    <h1>About This Server</h1>
-    <p>
-      This http server is built using Python socket programming with multi-threading.
-    </p>
-    <a href="index.html">Home</a> | <a href="contact.html">Contact</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <main>
+      <h1>About This HTTP Server</h1>
+      <p>
+        This project is a multi-threaded HTTP server developed in Python using
+        low-level socket programming.
+      </p>
+      <p>
+        It is designed to handle multiple clients concurrently by using a thread
+        pool, improving efficiency and performance under load.
+      </p>
+      <h2>Key Features</h2>
+      <ul>
+        <li>
+          <strong>Concurrent Connections:</strong> Supports multiple client
+          connections simultaneously with thread pool management.
+        </li>
+        <li>
+          <strong>Static File Serving:</strong> Serves HTML, JPEG images, and
+          text files with correct HTTP headers.
+        </li>
+        <li>
+          <strong>JSON POST Uploads:</strong> Accepts JSON data uploads and
+          securely saves them to the server.
+        </li>
+        <li>
+          <strong>Security:</strong> Implements path traversal protection and
+          strict host header validation to prevent unauthorized access.
+        </li>
+        <li>
+          <strong>Connection Management:</strong> Supports persistent HTTP
+          connections with keep-alive and connection timeouts.
+        </li>
+        <li>
+          <strong>Error Handling:</strong> Provides appropriate HTTP error
+          responses for malformed requests and unsupported operations.
+        </li>
+        <li>
+          <strong>Comprehensive Logging:</strong> Logs all significant events
+          including server activity, errors, and client interactions with
+          timestamps.
+        </li>
+      </ul>
+      <h2>Technologies Used</h2>
+      <ul>
+        <li>Python 3 with built-in socket and threading libraries.</li>
+        <li>Standard HTTP/1.1 protocol handling and compliance.</li>
+        <li>
+          Basic file system operations for serving and saving files securely.
+        </li>
+      </ul>
+      <p>
+        This server is primarily intended for educational purposes to illustrate
+        core network programming and HTTP concepts.
+      </p>
+    </main>
   </body>
 </html>
