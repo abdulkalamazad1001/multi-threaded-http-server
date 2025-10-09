@@ -72,7 +72,7 @@ Make a file called `sample.json` with this content:
 {
   "name": "Abdul Kalam Azad",
   "email": "ak@gmail.com",
-  "message": "This is a test JSON upload for the HTTP serve."
+  "message": "This is a test JSON upload for the HTTP server."
 }
 ```
 Upload using this command (in your project folder):
@@ -118,7 +118,7 @@ MULTITHREADED_HTTP_SERVER
 
 ## Notes and Known Limits
 
-- Only supports HTML, JPEG, and text files (PNG possible, just add the file).
+- Only supports HTML, JPG, and text files (PNG, JPEG possible, just add the file).
 - No HTTPS (SSL) is used—this is a basic learning server.
 - Works best for small demo files—very large files might take longer.
 - No user authentication.
