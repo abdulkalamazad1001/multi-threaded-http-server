@@ -70,9 +70,9 @@ Images and text files will download; HTML pages will show up in browser.
 Make a file called `sample.json` with this content:
 ```json
 {
-  "name": "John Doe",
-  "email": "johndoe@example.com",
-  "message": "This is a test JSON upload for the HTTP server."
+  "name": "Abdul Kalam Azad",
+  "email": "ak@gmail.com",
+  "message": "This is a test JSON upload for the HTTP serve."
 }
 ```
 Upload using this command (in your project folder):
@@ -130,9 +130,10 @@ MULTITHREADED_HTTP_SERVER
 
 **Name:** T. Abdul Kalam Azad  
 **Roll No:** 10053  
-**Batch:** B
+**Batch:** B -- 2nd Year
+
 
 Thank you for checking out my project!  
 If you need to test, run, or review any part, just follow the easy instructions above.
 
-*README by T. Abdul Kalam Azad (10053), Batch-B*
+*README by T. Abdul Kalam Azad (10053), Batch-B, 2nd Year*
