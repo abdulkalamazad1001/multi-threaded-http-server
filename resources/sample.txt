@@ -1,2 +1,7 @@
-This is a sample text file served by the HTTP server.
-You can download this file by requesting /sample.txt
+Welcome to the Multi-threaded HTTP Server project!
+
+This sample text file serves as an example to test the server's ability to download text files correctly. 
+
+You can add your own content here for testing purposes.
+
+Thank you for trying out this server.
