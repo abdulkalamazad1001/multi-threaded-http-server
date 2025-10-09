@@ -129,9 +129,6 @@ MULTITHREADED_HTTP_SERVER
 ## My Details
 
 **Name:** T. Abdul Kalam Azad  
-**Roll No:** 10053  
-**Batch:** B -- 2nd Year
-
 
 Thank you for checking out my project!  
 If you need to test, run, or review any part, just follow the easy instructions above.
