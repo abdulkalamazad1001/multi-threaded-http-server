@@ -2,11 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - Multi-threaded HTTP Server</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f0f2f5;
+        color: #333;
+      }
+      nav {
+        background: #1a73e8;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 900px;
+        margin: 2rem auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      header h1 {
+        margin-bottom: 0.25rem;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 6px;
+        margin-top: 1rem;
+      }
+      footer {
+        text-align: center;
+        color: #777;
+        margin-top: 2rem;
+        padding: 1rem 0;
+        border-top: 1px solid #ddd;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to the Multi-threaded HTTP Server</h1>
-    <p>This is the home page (index.html).</p>
-    <a href="about.html">About</a> | <a href="contact.html">Contact</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="container">
+      <header>
+        <h1>Welcome to the Multi-threaded HTTP Server</h1>
+        <p>
+          This server supports serving static files and uploading JSON data.
+        </p>
+      </header>
+      <main>
+        <p>
+          Use the navigation links above to explore this simple demo server.
+        </p>
+        <img src="/photo1.jpg" alt="Example Image" />
+      </main>
+    </div>
+    <footer>&copy; 2025 T. Abdul Kalam Azad</footer>
   </body>
 </html>
